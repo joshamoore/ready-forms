@@ -1,5 +1,6 @@
 var textValues = document.getElementsByClassName('ready-forms-text-required');
 var emailValues = document.getElementsByClassName('ready-forms-email-required');
+var textareaValues = document.getElementsByClassName('ready-forms-textarea-required');
 
 var valid = false;
 
@@ -20,6 +21,7 @@ function validate() {
 function checkForm() {
 	checkText();
 	checkEmail();
+	checkTextArea();
 }
 
 function checkText() {
@@ -63,4 +65,20 @@ function validEmail(email) {
 		return false; 
 	}
 
+}
+
+function checkTextArea() {
+	for (var i=0; i < textareaValues.length; i++) {
+		if (textareaValues[i].value==null || textareaValues[i].value=="") {
+			textareaValues[i].value = errorValue;
+			textareaValues[i].style.background = bgColor;
+			textareaValues[i].style.border=borderStyle;
+			textareaValues[i].style.color=fontColor;
+		}
+		else {
+			textareaValues[i].style.background = "#FFFFFF";
+			textareaValues[i].style.border="1px solid #ccc";
+			textareaValues[i].style.color="#2D2D2D";
+		}
+	}
 }
