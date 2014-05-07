@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>Ready Forms Documentation</title>
+
+	<link rel='stylesheet' type='text/css' href='ready-forms/css/ready-forms.css' />
+	<link rel='stylesheet' type='text/css' href='css/style.css' />
+
+	<script type="text/javascript" src="ready-forms/js/ready-forms.js"></script>
+
+</head>
+<body>
+	<div id="wrap">
+		<h1>Ready Forms 0.1</h1>
+
+		<p>Ready Forms is a complete CSS & JavaScript form system, which makes it easy to add beautiful forms with built in validation to your website. Simply add the <span class="code">ready-forms</span> class name to your inputs and the rest is done for you!</p>
+		
+		<h2>Current Features</h2>
+		
+		<ul>
+			<li>Styling for <span class="code">text</span>, <span class="code">email</span> and <span class="code">textarea</span> input types</li>
+			<li>Validation for text and email input types</li>
+		</ul>
+
+		<h2>Supported Input Types</h2>
+		<ul>
+			<li><a href="#text">text</a></li>
+			<li><a href="#email">email</a></li>
+			<li><a href="#textarea">textarea</a></li>
+		</ul>
+		
+		<h2>Usage</h2>
+		<p>Just copy the <span class="code">ready-forms</span> folder into your website root, and include the following lines your head:</p>
+		<ul>
+			<li><span class="code">&lt;link rel='stylesheet' type='text/css' href='ready-forms/css/ready-forms.css' /&gt;</span></li>
+			<li><span class="code">&lt;script type="text/javascript" src="ready-forms/js/ready-forms.js"&gt;&lt;script&gt;</span></li>
+		</ul>
+		<p>Form styling in <span class="code">ready-forms/css/ready-forms.css</span></p>
+		<p>Form validation in <span class="code">ready-forms/js/ready-forms.js</span></p>
+		<p>Supported inputs have a corresponding class which follows the naming convetion <span class="code">ready-forms-[input type]</span>. Simply add that to your form and styling and validation will be added. Refer to the list of supported input types for a full list of class names.</p>
+		<p>Default width of <span class="code">text</span> inputs is 300px. You can change this in the <span class="code">css/ready-forms.css</span> file.</p>
+
+		<h2>Input Type Class Names</h2>
+
+		<ul>
+			<li>text - <span class="code">ready-forms-text</span></li>
+			<li>email - <span class="code">ready-forms-email</span></li>
+		</ul>
+
+		<p>If you want a required field simply add <span class="code">-required</span> at the end of a class name.</p>
+		<p>Eg. <span class="code">ready-forms-text-required</span> will add validation to a text field.</p>
+
+		<h2>Demo Form</h2>
+
+		<div id="form">
+
+			<span class="ready-forms-label"><label for="text">Text (required):</label></span>
+			<input type="text" id="text" class="ready-forms-text-required"/><br />
+
+			<span class="ready-forms-label"><label for="text">Text (not required):</label></span>
+			<input type="text" id="text" class="ready-forms-text"/><br />
+
+			<span class="ready-forms-label"><label for="email">Email (required):</label></span>
+			<input type="email" id="email" class="ready-forms-email-required"/><br />
+
+			<span class="ready-forms-label"><label for="email">Email (not required):</label></span>
+			<input type="email" id="email" class="ready-forms-email"/><br />
+
+			<span class="ready-forms-label"><label for="textarea">Text Area:</label></span>
+			<textarea id="textarea" class="ready-forms-textarea"/></textarea><br />
+
+			<button onclick="validate()">Submit</button>
+
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,900italic);
+
+body {
+	background-color: #E3E3E3;
+	font-family: 'Lato', sans-serif;
+}
+#wrap {
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	margin:auto;
+	width:930px;
+	padding: 15px;
+}
+.code {
+	font-family: 'consolas';
+	background-color: #EEEEEE;
+	border-radius: 3px;
+	padding: 2px 6px 2px 6px;
+	font-size: 14px;
+}
+#form {
+	padding: 20px;
+	border:1px solid #E3E3E3;
+	border-radius: 10px;
+}
