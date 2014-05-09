@@ -15,6 +15,7 @@ The following is a list of supported input types as of May 9, 2014.
 To install Ready-Forms, add the ready-forms folder to your website root, and include the following lines in the `<head>` section of your web page.
 
 `<link rel='stylesheet' type='text/css' href='ready-forms/css/ready-forms.css' />`
+
 `<script type="text/javascript" src="ready-forms/js/ready-forms.js"></script>`
 
 Now to use Ready-Forms, create a form input as usual and simply add the corresponding class name to the input and the styling and validation will be done for you.
