@@ -25,7 +25,7 @@ The naming conventions for inputs are as follows:
 * `ready-forms-text-required`
 * `ready-forms-text`
 
-When a field is required it will be validated, simply remove `-required` to add styling.
+When a field is required it will be validated, simply remove `-required` to remove validation and keep Ready-Forms styling.
 
 ##Full List of Class Names
 
