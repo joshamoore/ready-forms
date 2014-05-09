@@ -6,9 +6,9 @@ Ready-Forms makes it super easy to create beautiful forms that come complete wit
 ##Supported Input Types
 The following is a list of supported input types as of May 9, 2014.
 
-*text
-*email
-*textfield
+* `text`
+* `email`
+* `textfield`
 
 ##Usage
 
@@ -21,15 +21,15 @@ Now to use Ready-Forms, create a form input as usual and simply add the correspo
 
 The naming conventions for inputs are as follows:
 
-*`ready-forms-text-required`
-*`ready-forms-text`
+* `ready-forms-text-required`
+* `ready-forms-text`
 
 When a field is required it will be validated, simply remove `-required` to add styling.
 
 ##Full List of Class Names
 
-*`ready-forms-text`
-*`ready-forms-email`
-*`ready-forms-textarea`
+* `ready-forms-text`
+* `ready-forms-email`
+* `ready-forms-textarea`
 
 Add `-required` at the end of a class name to enable validation. 
