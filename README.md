@@ -6,9 +6,9 @@ Ready-Forms makes it super easy to create beautiful forms that come complete wit
 ##Supported Input Types
 The following is a list of supported input types as of May 9, 2014.
 
-*`text`
-*`email`
-*`textfield`
+*text
+*email
+*textfield
 
 ##Usage
 
