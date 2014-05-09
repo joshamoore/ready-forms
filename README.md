@@ -8,7 +8,7 @@ The following is a list of supported input types as of May 9, 2014.
 
 * `text`
 * `email`
-* `textfield`
+* `textarea`
 
 ##Usage
 
